@@ -1,0 +1,8 @@
+user_number = input('Введите число: ')
+a = int(user_number)
+b = int(user_number+user_number)
+c = int(user_number+user_number+user_number)
+print(a)
+print(b)
+print(c)
+print(a+b+c)
