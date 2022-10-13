@@ -7,7 +7,7 @@ if user_revenue > user_cost:
     profitability = profit/user_revenue*100
     user_workers = int(input('Введите количество человек на фирме: '))
     profit_man = profit/user_workers
-    print('Ваша прибыль составляет:', profit)
+    print('Ваша прибыль составляет: ', profit)
     print('Ваша рентабельность: ', profitability)
     print('Прибыль на одного работника составляет: ', profit_man)
 elif user_revenue < user_cost:
